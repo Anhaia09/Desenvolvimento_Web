@@ -1,0 +1,68 @@
+.margin
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fundo{ /*define tudo do fundo*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /*altura*/
+    background-color: blueviolet; /* cor do fundo*/
+    color: white; /*cor da fonte*/
+    font-family:Georgia, 'Times New Roman', Times, serif; /*fonte que eu quero*/
+    text-align: center; /* texto no centro "calculadora"*/
+        
+}
+
+.calculadora{
+
+position: fixed; /*deixei fixado minha calculadora no centro*/
+background-color: rgb(221, 185, 255); /* cor da minha calculadora*/
+top: 50%; /*tira 50% do topo*/
+left: 50%;/*tira 50% da esquerda e manda pra direita*/
+transform: translate(-50%, -50%); /*tira 50% do topo e direita e fixa no centro*/
+border-radius: 30px; /*arredonda as bordas*/
+padding: 50px; /*diminui ou aumenta o tamanho da calculadora*/
+}
+
+.botao{
+background-color: rgb(248, 241, 255); /*cor do botão*/
+width: 50px; /*largura do botão*/
+height: 50px; /*altura do  botão*/
+font-size: 20px;/*tamanho da letra*/
+cursor: pointer; /*muda o mouse para dar click no botão*/
+margin: 3px; /* espaço entre os botoes*/
+border: none; /*tira a borda dos botoes*/
+color: black; /* define a cor das letras dos botoes*/
+}
+.botao:hover{
+background-color:white; /* faz com que quando o mouse passa no botão ele fica branco*/
+}
+
+#displayPrimario{
+background-color: white;
+width: 215px; /*altura da barra*/
+height: 24px; /*largura da barra*/
+margin: 5px; /*espaço entre a barra e os botoes*/
+font-size: 25px; /*define o tamanho da fonte*/
+color: black; /* define a cor para o resultado*/
+text-align: right; /*deixa o resultado alinhado a direita*/
+padding: 8px;/*preenchimento da "barra" do resultado*/
+
+}
+
+#displaySecundario{
+    background-color: white;
+    width: 215px; /*altura da barra*/
+    height: 24px; /*largura da barra*/
+    margin: 5px; /*espaço entre a barra e os botoes*/
+    font-size: 25px; /*define o tamanho da fonte*/
+    color: black; /* define a cor para o resultado*/
+    text-align: right; /*deixa o resultado alinhado a direita*/
+    padding: 8px;/*preenchimento da "barra" do resultado*/
+    
+    }
